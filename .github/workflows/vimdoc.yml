@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - README.md
-      - doc/numbertoggle.txt
+      - doc/vscode-numbertoggle.txt
 
 jobs:
   docs:
@@ -19,8 +19,8 @@ jobs:
       - name: Generate docs
         uses: kdheepak/panvimdoc@main
         with:
-          vimdoc: numbertoggle
-          description: automatic toggle between hybrid and absolute line numbers
+          vimdoc: vscode-numbertoggle
+          description: automatic toggle between hybrid and absolute line numbers in VSCode
 
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
