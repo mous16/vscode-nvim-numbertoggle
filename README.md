@@ -2,7 +2,7 @@
 
 Neovim plugin to automatically toggle between relative and absolute line numbers in VSCode. Written in Lua.
 
-![demo](https://user-images.githubusercontent.com/56180050/177167997-652a43b1-c94a-4b73-94d6-e4b85fbd4606.gif)
+![demo](https://private-user-images.githubusercontent.com/12795028/538009912-06a0169b-860b-4370-9eed-38041fabf0b4.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg5MTE3NzUsIm5iZiI6MTc2ODkxMTQ3NSwicGF0aCI6Ii8xMjc5NTAyOC81MzgwMDk5MTItMDZhMDE2OWItODYwYi00MzcwLTllZWQtMzgwNDFmYWJmMGI0Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTIwVDEyMTc1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU5MGU2YjUxMTk3YTE2YjEzNTE2OTNkZGI2MThkY2Y3OGM0NmFmODUwMTUxZTNmN2I2ZmYyNjgyM2NjMmMwZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.n8qkZEkNIdIP-0DngAJ7au_Qzu4HDWmsdgSMLdbGLYM)
 
 Relative numbers are used in a buffer that has focus and is in normal mode since that's where you move around. They're turned off when you switch out of Vim, switch to another split, or go into insert and command modes.
 
