@@ -27,3 +27,4 @@ vim.pack.add({
 ## Acknowledgment
 
 Based on [nvim-numbertoggle](https://github.com/sitiom/nvim-numbertoggle)
+
